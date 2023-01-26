@@ -5,7 +5,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 const Head = ()=>{
 
 return (
-    <div className={styles.container}>
+    <div id='home' className={styles.container}>
 <div className={styles.profile}>
 <div className={styles.item}>
 <p>Welcome</p>

@@ -6,7 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 const About = ()=>{
 
     return (
-        <div className={styles.container}>
+        <div id='About' className={styles.container}>
           <div className={styles.alignHead}>
           <p className={styles.about}>About Me</p>
           </div>
