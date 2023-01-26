@@ -12,8 +12,8 @@ return (
 <p>I'm Md Monu</p>
 <p>Full Stack Web Developer</p>
 <a href='https://drive.google.com/uc?id=11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU&export=download' download="Md-Monu-Resume" className={styles.resume}>
-                    <FontAwesomeIcon icon={faDownload}/>
-                     Resume</a>
+<FontAwesomeIcon icon={faDownload}/>
+Resume</a>
 </div>
 </div>
 

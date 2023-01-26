@@ -22,4 +22,5 @@ background-size: cover;
 @media screen and (min-width:100px) and (max-width:600px){
     .item>p:nth-child(2){font-size: 35px;}
     .itme>p:nth-child(3){font-size: 17px;}
+    .profile{margin-top: 10%;}
 }
