@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-    <p style={{fontSize:"100px"}}> Md Monu</p>
+  <Home/>
     </div>
   );
 }

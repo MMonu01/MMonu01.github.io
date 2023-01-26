@@ -1,0 +1,15 @@
+.Sidebar{position:fixed;top:0; overflow:hidden; left:0; height:100%;width:0; transition: .5s;background-color: rgba(0,0,0,.9);z-index: 200;}
+
+.mark{position: absolute;top:28px; right:45px; font-size: 35px;color:rgb(181, 180, 180);cursor: pointer;}
+
+.mark:hover {color:white;}
+
+.content{position: relative;top:25%;display: flex; justify-content: center; align-items: center; flex-direction: column;gap:10px;}
+
+
+.content a,.resume{font-size: 25px;color:rgb(181, 180, 180); text-decoration: none;cursor: pointer;}
+
+
+
+.content a:hover, .content a:focus,.resume:hover,.resume:focus {color:white;}
+
