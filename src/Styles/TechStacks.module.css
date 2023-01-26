@@ -25,7 +25,7 @@
 .child{position:absolute; top:100%; background:rgb(255,87,34,.9); left:0; right:0; bottom:0; height:0%; overflow:hidden; width:100%; transition:.5s;}
 
 .child>div{position:absolute; top:50%; left:50%; transform: translate(-50%,-50%);font-size: 20px;}
-.box:hover .child{top:0;height:100%;}
+.box:hover .child{top:0;height:100%;font-weight: bold;}
 
 .child2{background-color: rgba(33,150,243,.9);}
 .child3{background-color: rgba(255,223,0,.9);}
@@ -40,22 +40,25 @@
 @media screen and (min-width:600px) and (max-width:810px){
 .box{height:90px; width:90px;}
 .about{font-size: 45px;}
+.child>div{font-size: 16px;}
 }
 
 
 @media screen and (min-width:460px) and (max-width:600px){
     .box{height:70px; width:70px;}
     .about{font-size: 35px;}
+    .child>div{font-size: 13px;}
 }
 
-
+/* 
 @media screen and (min-width:350px) and (max-width:460px){
     .box{height:50px; width:50px;}
     .about{font-size: 35px;}
-}
+} */
 
-@media screen and (min-width:100px) and (max-width:350px){
+@media screen and (min-width:35px) and (max-width:460px){
     .content{grid-template-columns: repeat(3,1fr);}
-    .box{height:50px; width:50px;}
+    .box{height:60px; width:60px;}
     .about{font-size: 35px;}
+    .child>div{font-size: 11px;}
 }
