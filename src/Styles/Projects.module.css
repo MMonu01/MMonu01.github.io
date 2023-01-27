@@ -1,4 +1,8 @@
-.container{height:auto; width:100%;  display: flex;overflow: scroll; scroll-snap-type: x mandatory; }
+.projects{font-size: 50px; padding-top:50px; padding-bottom:50px; text-align: center; color:white; background-color: black;border-bottom: 2px;}
+
+.name{border-bottom: 1px solid white;padding-bottom: 20px;}
+
+.container{height:100%; width:100%;  display: flex;overflow: scroll; scroll-snap-type: x mandatory;}
 
 .container::-webkit-scrollbar{display: none;}
 
@@ -9,6 +13,7 @@ display: grid; grid-template-columns: 1fr 1fr; gap:20px; align-items: center;
 color:white;
 padding-top:40px; padding-bottom: 60px; padding-left: 40px; 
 padding-right: 100px;
+/* height:200vh; */
 }
 
 .child1{background-color: black;}
@@ -16,11 +21,10 @@ padding-right: 100px;
 .child3{background-color:red;}
 .child4{background-color: rgb(91,94,166);}
 
-/* rgb(80,88,101) */
 
 .child img{height:300px; width:600px;}
 
-/* .box{color:white;} */
+
 
 
 .laptop {
@@ -35,7 +39,7 @@ padding-right: 100px;
   border-style: solid;
   border-color: rgb(46, 46, 46);
   border-width: 15px 15px 30px;
-  background-color: black;
+  background-color: white;
 }
 
 
@@ -58,11 +62,16 @@ padding-right: 100px;
  .alignbtn{display: flex; gap:20px;}
 
  @media screen and (min-width:650px) and (max-width:920px){
-    .child{grid-template-columns: 1fr;padding-right: 20px; scroll-margin-left:80px; width:calc(100% - 80px)}
+    .child{grid-template-columns: 1fr;padding-right: 20px; padding-left: 20px; scroll-margin-left:70px; width:calc(100% - 80px)}
     .child>div:nth-child(2){
-        padding:40px;
+        padding:40px; 
     }
     .laptop{width:90%;}
+    .name{font-size: 40px;}
+    .content{height:180px;}
+    .content{display: flex; flex-direction: column;}
+    .alignbtn{justify-self: flex-end;}
+    /* .child */
 }
 
 
@@ -76,7 +85,7 @@ padding-right: 100px;
  } */
 
  @media screen and (min-width:100px) and (max-width:650px){
-    .child{grid-template-columns: 1fr;padding-right: 20px; scroll-margin-left: 50px; width:calc(100% - 50px)}
+    .child{grid-template-columns: 1fr;padding-right: 20px;  padding-left:20px; scroll-margin-left: 30px; width:calc(100% - 50px)}
     .child>div:nth-child(2){
         padding:0;
     }
@@ -89,6 +98,9 @@ padding-right: 100px;
 .feature {margin-top: 10px;}
 .child{padding-left: -20px; padding-right: -20px;}
 .btn{width:auto; font-size: 14px;}
-.laptop{width:100%;}
-
+.laptop{width:100%;border-width: 9px 9px 18px;}
+.name{font-size: 35px;}
+.content{height:250px;}
+.content{display: flex; flex-direction: column;}
+.alignbtn{align-self: baseline;}
  }

@@ -6,6 +6,16 @@ import { faLifeRing } from '@fortawesome/free-solid-svg-icons'
 const Projects = ()=>{
 
     return (
+        <>
+        <div className={styles.projects}>
+<span className={styles.name}>Projects</span>
+        </div>
+
+
+
+
+
+        
         <div id='Projects' className={styles.container}>
 
 <div className={`${styles.child} ${styles.child1}`}>
@@ -25,7 +35,7 @@ const Projects = ()=>{
 
     <p className={styles.intro}>Bloommedplus is a healthcare platform {`( Tata 1mg Clone )`}.</p>
 
-    <p className={styles.feature}><span style={{width:"120px",display:"block"}}>Feature:</span> <span>Signup | Login | Logout | Sorting
+    <p className={styles.feature}><span >Feature:</span> <span>Signup | Login | Logout | Sorting
 | Pagination | Cart functionality | Place order | customer details | track order</span></p>
 
 <p className={styles.feature}><span >Tech Stacks:</span> <span>
@@ -49,7 +59,58 @@ HTML | CSS | JavaScript | React | JSON server</span></p>
 
 
 
+
+
+
+
+
+
+
+
+
 <div className={`${styles.child} ${styles.child2}`}>
+
+
+<div class={styles.laptop}>
+    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} />
+</div>
+
+
+
+ <div className={styles.box}>  
+<h1 className={styles.head}>Redr Store  </h1>
+
+
+
+<div className={styles.content}>
+
+    <p className={styles.intro}>Redr Store is an online grocery super market {`( Bigbasket Clone )`}.</p>
+
+    <p className={styles.feature}><span >Feature:</span> <span>Signup/Login | Search engine | Sorting |
+Change quantity | Add to cart</span></p>
+
+<p className={styles.feature}><span >Tech Stacks:</span> <span>
+HTML | CSS | JavaScript | React</span></p>
+
+    <div class = {styles.alignbtn}>
+
+    <a href='https://github.com/MMonu01/Redr-Store'
+    className={styles.btn} alt='Redr Store github'><FontAwesomeIcon icon={faGithub}/> Github</a>
+
+
+    <a href='https://redrstore.vercel.app/' className={styles.btn} alt='bloommedplus website'>
+        <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
+    </div>
+
+</div> 
+</div>
+</div>
+
+
+{/* -------------------------------------------- */}
+
+
+<div className={`${styles.child} ${styles.child3}`}>
 
 
 <div class={styles.laptop}>
@@ -96,57 +157,6 @@ HTML | CSS | JavaScript</span></p>
 
 
 
-
-
-
-
-
-<div className={`${styles.child} ${styles.child3}`}>
-
-
-<div class={styles.laptop}>
-    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} />
-</div>
-
-
-
- <div className={styles.box}>  
-<h1 className={styles.head}>Redr Store  </h1>
-
-
-
-<div className={styles.content}>
-
-    <p className={styles.intro}>Redr Store is an online grocery super market {`( Bigbasket Clone )`}.</p>
-
-    <p className={styles.feature}><span >Feature:</span> <span>Signup/Login | Search engine | Sorting |
-Change quantity | Add to cart</span></p>
-
-<p className={styles.feature}><span >Tech Stacks:</span> <span>
-HTML | CSS | JavaScript | React</span></p>
-
-    <div class = {styles.alignbtn}>
-
-    <a href='https://github.com/MMonu01/Redr-Store'
-    className={styles.btn} alt='Redr Store github'><FontAwesomeIcon icon={faGithub}/> Github</a>
-
-
-    <a href='https://redrstore.vercel.app/' className={styles.btn} alt='bloommedplus website'>
-        <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
-    </div>
-
-</div> 
-</div>
-</div>
-
-
-{/* -------------------------------------------- */}
-
-
-
-
-
-
 {/* 
 <div className={`${styles.child} ${styles.child4}`}>
     
@@ -186,6 +196,8 @@ HTML | CSS | JavaScript | React | JSON server</span></p>
 </div>
 </div> */}
         </div>
+        </>
+
     )
 }
 
