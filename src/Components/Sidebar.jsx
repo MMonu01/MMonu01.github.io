@@ -9,12 +9,12 @@ const Sidebar = ({Open,Close,show})=>{
        <div style={{width:show?"100%":"0px"}}  className={styles.Sidebar}>
             <FontAwesomeIcon className={styles.mark} onClick={Close} icon={faXmark}/>
             <div className={styles.content}>
-            <a href='#home'>Home</a>
-             <a href='#About'>About</a>
-             <a href='#Skills'>Skills</a>
-                <a href='#Projects'>Projects</a>
-                <a href='#Contacts'>Contacts</a>
-             <a href="https://drive.google.com/file/d/11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU/view?usp=share_link" download="Md-Monu-Resume" className={styles.resume}>Resume</a>
+            <a onClick={Close} href='#home'>Home</a>
+             <a onClick={Close}  href='#About'>About</a>
+             <a onClick={Close}  href='#Skills'>Skills</a>
+                <a onClick={Close}  href='#Projects'>Projects</a>
+                <a onClick={Close}  href='#Contacts'>Contacts</a>
+             <a onClick={Close}  href="https://drive.google.com/file/d/11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU/view?usp=share_link" download="Md-Monu-Resume" className={styles.resume}>Resume</a>
             </div>
             </div>
         

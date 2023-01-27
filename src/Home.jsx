@@ -2,6 +2,9 @@ import Navbar from "./Components/Navbar"
 import Head from './Components/Head'
 import About from "./Components/About"
 import TechStacks from "./Components/TechStacks"
+import Projects from "./Components/Projects"
+import Contacts from "./Components/Contacts"
+
 const Home = ()=>{
 
     return (
@@ -10,6 +13,8 @@ const Home = ()=>{
         <Head/>
 <About/>
 <TechStacks/>
+<Projects/>
+<Contacts/>
         </>
     )
 
