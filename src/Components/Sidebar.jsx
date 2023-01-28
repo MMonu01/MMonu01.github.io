@@ -12,7 +12,7 @@ const Sidebar = ({Open,Close,show})=>{
             <a onClick={Close} href='#home'>Home</a>
              <a onClick={Close}  href='#About'>About</a>
              <a onClick={Close}  href='#Skills'>Skills</a>
-                <a onClick={Close}  href='#Projects'>Projects</a>
+                <a onClick={Close}  href='#projectBox'>Projects</a>
                 <a onClick={Close}  href='#Contacts'>Contacts</a>
              <a onClick={Close}  href="https://drive.google.com/file/d/11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU/view?usp=share_link" download="Md-Monu-Resume" className={styles.resume}>Resume</a>
             </div>

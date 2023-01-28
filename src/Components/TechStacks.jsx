@@ -15,7 +15,7 @@ const TechStacks = ()=>{
 
 <div className={styles.final}>
 <div className={styles.box}>
-<img src="../../Html.png" alt="HTML"/>
+<img src="../../html.png" alt="HTML"/>
 
 <div className={`${styles.child} ${styles.child1}`}>
     <div>HTML</div>

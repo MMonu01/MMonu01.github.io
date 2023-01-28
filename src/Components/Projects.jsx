@@ -47,7 +47,8 @@ carousel.scrollLeft = 2*width
 
     return (
         <>
-        <div className={styles.projects}>
+         
+        <div id='projectBox' className={styles.projects}>
 <span className={styles.name}>Projects</span>
         </div>
 
@@ -78,7 +79,8 @@ carousel.scrollLeft = 2*width
 <div className={`${styles.child} ${styles.child1}`}>
 
     <div class={styles.laptop}>
-    <iframe src="https://bloommedplus.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} />
+        <img src="../../bloommedplus.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
+    {/* <iframe src="https://bloommedplus.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
 </div>
 
 
@@ -129,7 +131,9 @@ HTML | CSS | JavaScript | React | JSON server</span></p>
 
 
 <div class={styles.laptop}>
-    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} />
+<img src="../../redrstore.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
+{/* 
+    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
 </div>
 
 
@@ -171,7 +175,9 @@ HTML | CSS | JavaScript | React</span></p>
 
 
 <div class={styles.laptop}>
-    <iframe src="https://lumen5-beta.vercel.app/index.html" style={{width:"100%",border:"none",height:"100%"}} />
+<img src="../../lumen5.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
+
+    {/* <iframe src="https://lumen5-beta.vercel.app/index.html" style={{width:"100%",border:"none",height:"100%"}} /> */}
 </div>
 
 

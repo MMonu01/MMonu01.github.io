@@ -48,7 +48,7 @@ const Navbar =()=>{
                 <a href='#home'>Home</a>
                 <a href='#About'>About</a>
                 <a href='#Skills'>Skills</a>
-                <a href='#Projects'>Projects</a>
+                <a href='#projectBox'>Projects</a>
                 <a href='#Contacts'>Contacts</a>
                 <a href='https://drive.google.com/uc?id=11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU&export=download' download="Md-Monu-Resume" className={styles.resume}>
                     <FontAwesomeIcon icon={faDownload}/>
