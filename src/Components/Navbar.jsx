@@ -5,16 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars,faDownload } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
 
+console.log(window.height)
+
 const Navbar =()=>{
 
    window.onscroll = ()=>{
-
-       if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-           document.getElementById("navbar").style.padding = "15px 40px";
+// let height =
+       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        let nav =       document.getElementById("navbar")
+     nav.style.padding = "15px 40px";
+     nav.style.backgroundColor  = "black"
            document.getElementById("logo").style.fontSize = "22px";
         }
         else {
-            document.getElementById("navbar").style.padding = "20px 50px";
+            let nav= document.getElementById("navbar")
+           nav .style.padding = "20px 50px";
+           nav.style.backgroundColor = "transparent"
             document.getElementById("logo").style.fontSize = "24px";
           }
     }

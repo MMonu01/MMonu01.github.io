@@ -1,5 +1,5 @@
 
-.nav{display: flex; justify-content: space-between; align-items: center; background-color: black; color:white; padding:20px 50px; width:100%;position:fixed;top:0;transition: .5s; z-index: 100;}
+.nav{display: flex; justify-content: space-between; align-items: center; background-color: transparent; color:white; padding:20px 50px; width:100%;position:fixed;top:0;transition: .5s; z-index: 100;}
 
 
 

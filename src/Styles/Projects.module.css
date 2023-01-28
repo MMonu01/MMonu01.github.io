@@ -2,13 +2,17 @@
 
 .name{border-bottom: 1px solid white;padding-bottom: 20px;}
 
-.container{height:100%; width:100%;  display: flex;overflow: scroll; scroll-snap-type: x mandatory;}
+.container{height:100%; width:100%;  display: flex;overflow: hidden; 
+    scroll-snap-type: x mandatory;
+     scroll-behavior: smooth;}
 
 .container::-webkit-scrollbar{display: none;}
 
 
 
-.child{ height:100%; width:calc(100% - 100px);flex: none; scroll-snap-align: start; scroll-margin-left: 100px;
+.child{ height:100%; width:calc(100%);flex: none; 
+    /* scroll-snap-align: start;  */
+    /* scroll-margin-left: 50px; */
 display: grid; grid-template-columns: 1fr 1fr; gap:20px; align-items: center;
 color:white;
 padding-top:40px; padding-bottom: 60px; padding-left: 40px; 
@@ -25,6 +29,11 @@ padding-right: 100px;
 .child img{height:300px; width:600px;}
 
 
+
+.slider{align-items: center; white-space: nowrap;display: flex; justify-content: center; align-items: center; background-color: black;color:white;padding-bottom: 20px;}
+.first,.second,.third{cursor: pointer;font-size: 21px;margin:3px; transition: .5s;}
+
+.colored{color: red; font-size: 23px;margin:3px; transition:.5s;}
 
 
 .laptop {
@@ -62,7 +71,9 @@ padding-right: 100px;
  .alignbtn{display: flex; gap:20px;}
 
  @media screen and (min-width:650px) and (max-width:920px){
-    .child{grid-template-columns: 1fr;padding-right: 20px; padding-left: 20px; scroll-margin-left:70px; width:calc(100% - 80px)}
+    .child{grid-template-columns: 1fr;padding-right: 20px; padding-left: 20px; 
+        /* scroll-margin-left:0px; */
+         width:calc(100%)}
     .child>div:nth-child(2){
         padding:40px; 
     }
@@ -85,7 +96,9 @@ padding-right: 100px;
  } */
 
  @media screen and (min-width:100px) and (max-width:650px){
-    .child{grid-template-columns: 1fr;padding-right: 20px;  padding-left:20px; scroll-margin-left: 30px; width:calc(100% - 50px)}
+    .child{grid-template-columns: 1fr;padding-right: 20px;  padding-left:20px; 
+        scroll-margin-left: 0px;
+         width:calc(100%)}
     .child>div:nth-child(2){
         padding:0;
     }
@@ -98,9 +111,10 @@ padding-right: 100px;
 .feature {margin-top: 10px;}
 .child{padding-left: -20px; padding-right: -20px;}
 .btn{width:auto; font-size: 14px;}
-.laptop{width:100%;border-width: 9px 9px 18px;}
+.laptop{width:100%;border-width: 9px 9px 18px;height:300px;}
 .name{font-size: 35px;}
 .content{height:250px;}
 .content{display: flex; flex-direction: column;}
 .alignbtn{align-self: baseline;}
+
  }

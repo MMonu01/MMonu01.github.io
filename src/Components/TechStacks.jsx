@@ -8,7 +8,7 @@ const TechStacks = ()=>{
 
 
 <div className={styles.alignHead}>
-  <p className={styles.about}>Tech Stacks</p>
+  <p className={styles.about}>Tech Stacks </p>
  </div>
 
 <div className={styles.content}>
@@ -17,7 +17,7 @@ const TechStacks = ()=>{
 <div className={styles.box}>
 <img src="../../Html.png" alt="HTML"/>
 
-<div className={styles.child}>
+<div className={`${styles.child} ${styles.child1}`}>
     <div>HTML</div>
 </div>
 </div>

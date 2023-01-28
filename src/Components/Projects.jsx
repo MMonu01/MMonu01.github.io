@@ -1,9 +1,49 @@
 import styles from '../Styles/Projects.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLifeRing } from '@fortawesome/free-solid-svg-icons'
+import { faLifeRing,faCircleDot } from '@fortawesome/free-solid-svg-icons'
+import { faCircle } from '@fortawesome/free-regular-svg-icons'
+import { useState } from 'react'
+
+
 
 const Projects = ()=>{
+
+const [show1,setShow1] = useState(true)
+const [show2,setShow2] = useState(false)
+const [show3,setShow3] = useState(false)
+
+    const HandleFirst =()=>{
+        let carousel = document.getElementById("Projects")
+setShow1(true)
+setShow2(false)
+setShow3(false)
+carousel.scrollLeft = 0
+}
+
+const HandleSecond = ()=>{
+    setShow2(true)
+    setShow1(false)
+    setShow3(false)
+    let carousel = document.getElementById("Projects")
+
+    let width = carousel.clientWidth
+    // carousel.scrollLeft = 0
+    carousel.scrollLeft = carousel.clientWidth
+    }
+
+    const HandleThird = ()=>{
+setShow3(true)
+setShow1(false)
+setShow2(false)
+let carousel = document.getElementById("Projects")
+
+let width  = carousel.clientWidth
+carousel.scrollLeft = 2*width
+
+    }
+
+
 
     return (
         <>
@@ -11,11 +51,28 @@ const Projects = ()=>{
 <span className={styles.name}>Projects</span>
         </div>
 
+<span  className={styles.slider}>
+    {/* <FontAwesomeIcon className={styles.colored} icon={faCircleDot}/> */}
+   
+    {show1? <FontAwesomeIcon className={styles.colored} icon={faCircleDot}/>:<FontAwesomeIcon id='first' onClick={HandleFirst} className={styles.first} icon={faCircle}/>}
+    
+    
+    {show2? <FontAwesomeIcon className={styles.colored} icon={faCircleDot}/>:<FontAwesomeIcon id='second' onClick={HandleSecond} className={styles.first} icon={faCircle}/>}
+    
+    
+    {show3? <FontAwesomeIcon className={styles.colored} icon={faCircleDot}/>:<FontAwesomeIcon id='third' onClick={HandleThird} className={styles.first} icon={faCircle}/>}
 
 
 
 
-        
+
+
+</span>
+
+
+
+
+
         <div id='Projects' className={styles.container}>
 
 <div className={`${styles.child} ${styles.child1}`}>
