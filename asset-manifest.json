@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c59416da.css",
-    "main.js": "/static/js/main.b09dacf1.js",
+    "main.css": "/static/css/main.8c1a2149.css",
+    "main.js": "/static/js/main.d0f7f952.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/4k-abstract-geometric-shapes-e6mft2uwgbzdaukn.jpg": "/static/media/4k-abstract-geometric-shapes-e6mft2uwgbzdaukn.939c5d58170b544ecb5f.jpg",
+    "static/media/4k-abstract-green-rmx6g0xgcy2ul3rx.jpg": "/static/media/4k-abstract-green-rmx6g0xgcy2ul3rx.5e3d8a100d7241dc80e1.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.c59416da.css.map": "/static/css/main.c59416da.css.map",
-    "main.b09dacf1.js.map": "/static/js/main.b09dacf1.js.map",
+    "main.8c1a2149.css.map": "/static/css/main.8c1a2149.css.map",
+    "main.d0f7f952.js.map": "/static/js/main.d0f7f952.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c59416da.css",
-    "static/js/main.b09dacf1.js"
+    "static/css/main.8c1a2149.css",
+    "static/js/main.d0f7f952.js"
   ]
 }
