@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Sidebar from './Sidebar'
 import styles from '../Styles/Navbar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars,faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faBars,faDownload,faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
 
 console.log(window.height)
@@ -13,12 +13,16 @@ const Navbar =()=>{
 // let height =
        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         let nav =       document.getElementById("navbar")
+  let mybutton = document.getElementById("myBtn");
+  mybutton.style.display = "block";
      nav.style.padding = "15px 40px";
      nav.style.backgroundColor  = "black"
            document.getElementById("logo").style.fontSize = "22px";
         }
         else {
             let nav= document.getElementById("navbar")
+            let mybutton = document.getElementById("myBtn");
+            mybutton.style.display = "none";
            nav .style.padding = "20px 50px";
            nav.style.backgroundColor = "transparent"
             document.getElementById("logo").style.fontSize = "24px";
