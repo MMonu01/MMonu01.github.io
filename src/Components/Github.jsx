@@ -22,11 +22,11 @@ const Github = ()=>{
 
         <div className={styles.streak}>
 
- <img src="https://github-readme-streak-stats.herokuapp.com/?user=mmonu01&theme=tokyonight&background=black"/>
+ <img src="https://github-readme-streak-stats.herokuapp.com/?user=mmonu01&theme=midnight-purple&background=transparent"/>
         </div>
         <div className={styles.stats}>
 
- <img src="https://github-readme-stats.vercel.app/api?username=mmonu01&theme=transparent&show_icons=true"/>
+ <img src="https://github-readme-stats.vercel.app/api?username=mmonu01&theme=midnight-purple&show_icons=true"/>
         </div>
         </div>
     )
