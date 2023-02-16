@@ -66,13 +66,15 @@ const Contacts =()=>{
 
     return (
         <>
-        
-        <div id='Contacts' className={styles.container}>
+         <div id='Contacts' className={styles.projects}>
+<span className={styles.name}>Contact Me</span>
+        </div>
+        <div  className={styles.container}>
       
     
       <div className={styles.logo}>
 
-     <h2>Contacts</h2>
+     <h2>Contact</h2>
      {/* <div> */}
 
 

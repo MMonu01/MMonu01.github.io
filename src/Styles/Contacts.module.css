@@ -1,7 +1,10 @@
-.container{height:100vh; width:100%; background-color: black;color:white;display: grid;  grid-template-columns: auto auto;gap:4%; align-items: center; padding-left: 100px; padding-right:100px;
-    
-    border-top: 30px solid rgb(23,23,23);
+.projects{font-size: 50px; padding-top:50px;  text-align: center; color:white; background-color: black;border-bottom: 2px; border-top: 30px solid rgb(23,23,23);}
 
+.name{border-bottom: 1px solid white;padding-bottom: 20px;}
+
+
+.container{height:80vh; width:100%; background-color: black;color:white;display: grid;  grid-template-columns: auto auto;gap:4%; align-items: center; padding-left: 100px; padding-right:100px;
+    
 }
 
 
@@ -68,16 +71,38 @@ outline:none;}
 .alert{background-color: rgb(197, 244, 128); padding-top: 10px;padding-bottom: 10px; border-radius: 5px;  text-align: center; max-width: 450px; margin:5px 0;color:black;margin-bottom: 10px;}
 
 
-@media screen and (min-width:100px) and (max-width:850px){
+@media screen and (min-width:650px) and (max-width:850px){
     .container{grid-template-columns: 1fr;padding-top: 40px;justify-content: center;height:auto;padding-bottom: 100px;}
     .form .formField{grid-template-columns: 1fr;}
     .form input:nth-child(3){
         grid-area: 3/1/4/2;
      
     }
+    .name{font-size: 40px;}
     .form textarea{
         grid-area: 4/1/5/2;
        
+    }
+    .container h2{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (min-width:100px) and (max-width:650px){
+    .container{grid-template-columns: 1fr;padding-top: 40px;justify-content: center;height:auto;padding-bottom: 100px;}
+    .form .formField{grid-template-columns: 1fr;}
+    .form input:nth-child(3){
+        grid-area: 3/1/4/2;
+     
+    }
+    .name{font-size: 35px;}
+    .form textarea{
+        grid-area: 4/1/5/2;
+       
+    }
+    .container h2{
+        font-size: 30px;
     }
     
 }
