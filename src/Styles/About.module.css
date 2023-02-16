@@ -1,5 +1,7 @@
-.Boss{background-image: url("../../public/jj-ying-8bghKxNU1j0-unsplash.jpg");
-background-repeat: no-repeat;width:100%; background-size: cover;background-color: rgba(0,0,0,.8); background-blend-mode:color-burn;color:white;  }
+.Boss{
+    /* background-image: url("../../public/jj-ying-8bghKxNU1j0-unsplash.jpg");
+background-repeat: no-repeat;width:100%; background-size: cover;background-color: rgba(0,0,0,.8); background-blend-mode:color-burn; */
+color:white; background-color: black;  }
 
 
 .projects{font-size: 50px; padding-top:50px; padding-bottom:50px; text-align: center; border-bottom: 2px;}
@@ -56,7 +58,7 @@ padding-right: 40px;
 /* .box{grid-area: lp;} */
 
 
-.head{font-size: 40px; font-weight: lighter;font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 10px; border-left:2px solid green; padding-left: 15px; white-space: nowrap;}
+.head{font-size: 40px; font-weight: lighter;font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 10px; border-left:2px solid teal; padding-left: 15px; white-space: nowrap;}
 
 .intro{font-size: 16px; padding-bottom: 5px; font-weight: lighter;}
 .feature span:nth-child(1){font-size:18px;font-weight: bold;  padding-right: 5px; white-space: nowrap;}

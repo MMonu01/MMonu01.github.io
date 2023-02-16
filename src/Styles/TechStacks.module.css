@@ -1,7 +1,10 @@
-.container{width:100%; height:auto; background-color: rgb(18, 18, 18); padding:40px 40px; padding-bottom:50px;color:white;
-    background-blend-mode:color-dodge;
+.container{width:100%; height:auto; background-color: black; padding:40px 40px; padding-bottom:50px;color:white;
+    /* background-blend-mode:color-dodge;
 
-    background-image: url("../../public/pexels-photo-2268575.webp");
+    background-image: url("../../public/pexels-photo-2268575.webp"); */
+    border-top: 30px solid rgb(23, 23, 23);
+    border-bottom: 30px solid rgb(23, 23, 23);
+
 
 }
 
