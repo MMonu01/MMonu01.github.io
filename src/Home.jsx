@@ -5,6 +5,7 @@ import TechStacks from "./Components/TechStacks"
 import Projects from "./Components/Projects"
 import Contacts from "./Components/Contacts"
 import styles from './Styles/Home.module.css'
+import Github from "./Components/Github"
 
 const Home = ()=>{
 
@@ -16,6 +17,7 @@ const Home = ()=>{
 <About/>
 <TechStacks/>
 <Projects/>
+<Github/>
 <Contacts/>
         </>
     )

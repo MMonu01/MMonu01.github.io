@@ -1,0 +1,22 @@
+.container{height:auto; width:100%;background-color: black;border-top: 30px solid rgb(23,23,23);padding-top: 50px; padding-bottom: 50px;}
+.box{display: flex; justify-content: center; margin-bottom: 50px;}
+.github{text-align: center;  font-size: 40px;color:white; border-bottom: 1px solid white;padding-bottom: 10px;}
+
+.calendar{
+    width:80%; margin:auto;
+}
+
+.streak{text-align: center;margin-bottom: 20px;}
+.stats{text-align: center;}
+/* .streak img{width:80%; margin:auto;} */
+
+
+/* @media screen and (min-width:600px) and (max-width:850px){
+.github{font-size: ;}
+} */
+
+@media screen and (min-width:100px) and (max-width:600px){
+.streak img{width:80%; margin:auto;}
+.stats img{width:75%; margin:auto;}
+.github{font-size: 30px;}
+}
