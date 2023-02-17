@@ -12,6 +12,13 @@ const Contacts =()=>{
 
     const [showAlert,setShowAlert] = React.useState(false)
 
+const HandleShow = ()=>{
+    setShowAlert(true)
+    setTimeout(()=>{
+setShowAlert(false)
+    },5000)
+}
+
     const [formData,setFormData] = React.useState({
         name:"",
         email:"",
@@ -46,7 +53,8 @@ const Contacts =()=>{
         .then((result) => {
             console.log(result.text);
             // alert("Email sent successfully")
-            setShowAlert(true)
+            // setShowAlert(true)
+            HandleShow()
         }, (error) => {
             console.log(error.text);
         });
@@ -66,6 +74,16 @@ const Contacts =()=>{
 
     return (
         <>
+
+{showAlert && 
+          <div className={styles.alert}>
+Email Sent Successfully!
+<FontAwesomeIcon onClick={()=>{setShowAlert(false)}} style={{float:"right",cursor:"pointer", fontSize:"18px",}} icon={faXmark}/>
+        </div>
+ } 
+
+
+
          <div id='Contacts' className={styles.projects}>
 <span className={styles.name}>Contact Me</span>
         </div>
@@ -105,10 +123,7 @@ const Contacts =()=>{
 
 <form className={styles.form}  onSubmit={sendEmail}>
     <h2>Message me</h2>
-    {showAlert && <div className={styles.alert}>
-Email Sent Successfully
-<FontAwesomeIcon onClick={()=>{setShowAlert(false)}} style={{float:"right",cursor:"pointer", paddingRight:"15px",fontSize:"20px",}} icon={faXmark}/>
-        </div>}
+  
     
       <div className={styles.formField}>
         {/* <label>Name</label> */}
