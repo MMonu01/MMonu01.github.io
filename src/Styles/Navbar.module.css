@@ -10,7 +10,8 @@
 
 
 .nav a{text-decoration: none; font-size: 18px; color:white;padding:5px 10px;font-weight: 500;}
-.nav .logo{font-size: 24px; padding:0px 13px; padding-top: 5px; border-top:4px solid teal; transition: .5s; border-left:3px solid white;}
+.nav .logo{font-size: 24px; padding:0px 8px; padding-top: 0px; }
+.nav .logo span{font-size: 24px;font-weight: bold;}
 
 .menu{padding:5px;font-size: 25px;cursor: pointer;display: none;}
 .nav div{font-size: 18px;}

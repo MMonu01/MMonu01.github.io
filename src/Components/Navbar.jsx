@@ -44,7 +44,7 @@ const Navbar =()=>{
         <>
         <Sidebar Open = {Open} show={show} Close={Close} />
         <nav id='navbar' className={styles.nav}>
-            <a href='#home' id='logo' className={styles.logo}>Md Monu</a>
+            <a href='#home' id='logo' className={styles.logo}>M<span style={{color:"teal"}}>M</span></a>
 
 
 
