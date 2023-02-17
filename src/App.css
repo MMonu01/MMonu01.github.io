@@ -24,7 +24,7 @@ html {
 
 
 #myBtn {
-  /* display: none; */
+  display: none;
   position: fixed;
   bottom: 25px;
   right: 30px;

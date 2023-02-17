@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <button onClick={topFunction} id="myBtn"  title="Go to top">
+    <button onClick={topFunction} id="myBtn" style={{display:"none"}}  title="Go to top">
     <FontAwesomeIcon style={{fontWeight:"bolder",fontSize:"22px"}} icon={faChevronUp}/>
     </button>
     <div className="App" style={{position:"relative"}}>
