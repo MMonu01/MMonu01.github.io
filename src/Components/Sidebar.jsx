@@ -8,6 +8,7 @@ const Sidebar = ({Open,Close,show})=>{
 
     
     const OpenResume = ()=>{
+        Close()
         window.open("https://drive.google.com/file/d/11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU/view?usp=share_link")
     }
 
