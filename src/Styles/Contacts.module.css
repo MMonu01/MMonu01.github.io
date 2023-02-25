@@ -4,7 +4,6 @@
 
 
 .container{height:80vh; width:100%; background-color: black;color:white;display: grid;  grid-template-columns: auto auto;gap:4%; align-items: center; padding-left: 100px; padding-right:100px;
-    
 }
 
 

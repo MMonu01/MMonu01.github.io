@@ -40,6 +40,12 @@ const Navbar =()=>{
     }
 
 
+    const OpenResume = ()=>{
+        window.open("https://drive.google.com/file/d/11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU/view?usp=share_link")
+    }
+
+
+
     return (
         <>
         <Sidebar Open = {Open} show={show} Close={Close} />
@@ -54,7 +60,7 @@ const Navbar =()=>{
                 <a href='#Skills'>Skills</a>
                 <a href='#projectBox'>Projects</a>
                 <a href='#Contacts'>Contact</a>
-                <a href='https://drive.google.com/uc?id=11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU&export=download' download="Md-Monu-Resume" className={styles.resume}>
+                <a onClick={OpenResume} href='https://drive.google.com/uc?id=11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU&export=download' download="Md-Monu-Resume" className={styles.resume}>
                     <FontAwesomeIcon icon={faDownload}/>
                      Resume</a>
 
