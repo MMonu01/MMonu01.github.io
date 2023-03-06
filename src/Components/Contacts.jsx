@@ -13,7 +13,10 @@ const Contacts =()=>{
     const [showAlert,setShowAlert] = React.useState(false)
 
 const HandleShow = ()=>{
-    setShowAlert(true)
+    setTimeout(()=>{
+        
+        setShowAlert(true)
+    },[2000])
     setTimeout(()=>{
 setShowAlert(false)
     },5000)
@@ -49,12 +52,13 @@ setShowAlert(false)
         console.log("message field is empty")
     }
     else{
-        emailjs.sendForm('service_1jqcath', 'template_z5b8rde', e.target, 'oPB9VV9rxmPp86t_a')
+        HandleShow()
+
+        emailjs.sendForm('service_47717ej', 'template_acl9sk6', e.target, 'stB1zYHgF3S5AGTYk')
         .then((result) => {
             console.log(result.text);
             // alert("Email sent successfully")
             // setShowAlert(true)
-            HandleShow()
         }, (error) => {
             console.log(error.text);
         });
