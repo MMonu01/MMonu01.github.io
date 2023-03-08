@@ -41,11 +41,6 @@ collaboration and solutions-oriented problem-solving. Skilled
 in HTML, CSS, Javascript, MERN Stack. Aspired to build best
 websites.</p>
 
-    {/* <p className={styles.feature}><span >Feature:</span> <span>Signup | Login | Logout | Sorting
-| Pagination | Cart functionality | Place order | customer details | track order</span></p>
-
-<p className={styles.feature}><span >Tech Stacks:</span> <span>
-HTML | CSS | JavaScript | React | JSON server</span></p> */}
 
     <div class = {styles.alignbtn}>
 
@@ -58,8 +53,7 @@ HTML | CSS | JavaScript | React | JSON server</span></p> */}
 </div> 
 </div>
     <div class={styles.laptop}>
-    {/* <iframe src="https://bloommedplus.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
-    <img src='../../logo.jfif' alt='profile picture'  />
+    <img src='../../profile.jpg' alt='profile picture'  />
     </div>
 
     
