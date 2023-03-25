@@ -96,7 +96,7 @@ Email Sent Successfully!
     
       <div className={styles.logo}>
 
-     <h2>Contact</h2>
+     <h2 className={styles.contact}>Contact</h2>
      {/* <div> */}
 
 
@@ -130,13 +130,9 @@ Email Sent Successfully!
   
     
       <div className={styles.formField}>
-        {/* <label>Name</label> */}
       <input type="text" name="name" onChange={HandleFormData} placeholder='Name' required/>
-      {/* <label>Email</label> */}
       <input type="email" name="email" onChange={HandleFormData} placeholder='Email' required />
-      {/* <label>Subject</label> */}
       <input type="text" name="subject" onChange={HandleFormData} placeholder='Subject' required/>
-      {/* <label>Message</label> */}
       <textarea name="message" onChange={HandleFormData}  placeholder='Message...' required />
       <input type="submit" value="Send message" />
       </div>

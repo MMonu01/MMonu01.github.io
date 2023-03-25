@@ -3,7 +3,8 @@
 .github{text-align: center;  font-size: 40px;color:white; border-bottom: 1px solid white;padding-bottom: 10px;}
 
 .calendar{
-    width:80%; margin:auto;
+  display: flex; justify-content: center;
+
 }
 
 .streak{text-align: center;margin-bottom: 20px;}
