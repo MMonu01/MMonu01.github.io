@@ -76,7 +76,61 @@ carousel.scrollLeft = 2*width
 
         <div id='Projects' className={styles.container}>
 
+
+
+
+
+
+
+
+
+
+
 <div className={`${styles.child} ${styles.child1}`}>
+
+
+<div class={styles.laptop}>
+<img src="../../healthkart.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
+{/* 
+    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
+</div>
+
+
+
+ <div className={styles.box}>  
+<h1 className={styles.head}>VigorWizard  </h1>
+
+
+
+<div className={styles.content}>
+
+    <p className={styles.intro}>VigorWizard is a platform for health,nutrition and fitness products. {`( HealthKart Clone )`}.</p>
+
+
+    <p className={styles.feature}><span >Feature:</span> <span>Signup/Login/Logout | Search engine | Sorting | Filtering | Pagination | Cart functionality | Payment functionality | Add new product | Update/Delete existing product | Order Handling</span></p>
+
+<p className={styles.feature}><span >Tech Stacks:</span> <span>
+HTML | CSS | JavaScript | React | Redux | Chakra ui </span></p>
+
+    <div class = {styles.alignbtn}>
+
+    <a href='https://github.com/Rii-C/stupendous-laborer-3507'
+    className={styles.btn} alt='Vigor Wizard github'><FontAwesomeIcon icon={faGithub}/> Github</a>
+
+
+    <a href='https://healthkart-ten.vercel.app/' className={styles.btn} alt='vigorwizard website'>
+        <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
+    </div>
+
+</div> 
+</div>
+</div>
+
+
+{/* -------------------------------------------- */}
+
+
+<div className={`${styles.child} ${styles.child2}`}>
 
     <div class={styles.laptop}>
         <img src="../../bloommedplus.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
@@ -116,59 +170,6 @@ HTML | CSS | JavaScript | React | JSON server</span></p>
 
 {/* --------------------------------------------------- */}
 
-
-
-
-
-
-
-
-
-
-
-
-<div className={`${styles.child} ${styles.child2}`}>
-
-
-<div class={styles.laptop}>
-<img src="../../redrstore.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
-{/* 
-    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
-</div>
-
-
-
- <div className={styles.box}>  
-<h1 className={styles.head}>Redr Store  </h1>
-
-
-
-<div className={styles.content}>
-
-    <p className={styles.intro}>Redr Store is an online grocery super market {`( Bigbasket Clone )`}.</p>
-
-    <p className={styles.feature}><span >Feature:</span> <span>Signup/Login | Search engine | Sorting |
-Change quantity | Add to cart</span></p>
-
-<p className={styles.feature}><span >Tech Stacks:</span> <span>
-HTML | CSS | JavaScript | React</span></p>
-
-    <div class = {styles.alignbtn}>
-
-    <a href='https://github.com/MMonu01/Redr-Store'
-    className={styles.btn} alt='Redr Store github'><FontAwesomeIcon icon={faGithub}/> Github</a>
-
-
-    <a href='https://redrstore.vercel.app/' className={styles.btn} alt='bloommedplus website'>
-        <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
-    </div>
-
-</div> 
-</div>
-</div>
-
-
-{/* -------------------------------------------- */}
 
 
 <div className={`${styles.child} ${styles.child3}`}>
@@ -266,3 +267,45 @@ HTML | CSS | JavaScript | React | JSON server</span></p>
 
 
 export default Projects
+
+
+// <div className={`${styles.child} ${styles.child2}`}>
+
+
+// <div class={styles.laptop}>
+// <img src="../../redrstore.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
+// {/* 
+//     <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
+// </div>
+
+
+
+//  <div className={styles.box}>  
+// <h1 className={styles.head}>Redr Store  </h1>
+
+
+
+// <div className={styles.content}>
+
+//     <p className={styles.intro}>Redr Store is an online grocery super market {`( Bigbasket Clone )`}.</p>
+
+//     <p className={styles.feature}><span >Feature:</span> <span>Signup/Login | Search engine | Sorting |
+// Change quantity | Add to cart</span></p>
+
+// <p className={styles.feature}><span >Tech Stacks:</span> <span>
+// HTML | CSS | JavaScript | React</span></p>
+
+//     <div class = {styles.alignbtn}>
+
+//     <a href='https://github.com/MMonu01/Redr-Store'
+//     className={styles.btn} alt='Redr Store github'><FontAwesomeIcon icon={faGithub}/> Github</a>
+
+
+//     <a href='https://redrstore.vercel.app/' className={styles.btn} alt='bloommedplus website'>
+//         <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
+//     </div>
+
+// </div> 
+// </div>
+// </div>
+
