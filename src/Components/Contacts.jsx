@@ -99,8 +99,8 @@ Email Sent Successfully!
       
     
       <div className={styles.logo}>
-      <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px'  >
      <h2 className={styles.contact}>Contact</h2>
+      <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px' reset={true}  >
      {/* <div> */}
 
 
