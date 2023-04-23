@@ -10,14 +10,15 @@ console.log(window.height)
 const Navbar =()=>{
 
    window.onscroll = ()=>{
-// let height =
+
        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         let nav =       document.getElementById("navbar")
   let mybutton = document.getElementById("myBtn");
   mybutton.style.display = "block";
      nav.style.padding = "15px 40px";
      nav.style.backgroundColor  = "black"
-           document.getElementById("logo").style.fontSize = "22px";
+           document.getElementById("logo").style.fontSize = "24px";
+          
         }
         else {
             let nav= document.getElementById("navbar")
@@ -25,7 +26,7 @@ const Navbar =()=>{
             mybutton.style.display = "none";
            nav .style.padding = "20px 50px";
            nav.style.backgroundColor = "transparent"
-            document.getElementById("logo").style.fontSize = "24px";
+            document.getElementById("logo").style.fontSize = "28px";
           }
     }
 
@@ -50,7 +51,7 @@ const Navbar =()=>{
         <>
         <Sidebar Open = {Open} show={show} Close={Close} />
         <nav id='navbar' className={styles.nav}>
-            <a href='#home' id='logo' className={styles.logo}>M<span style={{color:"teal"}}>M</span></a>
+            <a href='#home' id='logo' className={styles.logo}>M<span style={{color:"teal"}} id='quanLogo'>M</span></a>
 
 
 

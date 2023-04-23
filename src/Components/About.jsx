@@ -4,6 +4,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLifeRing,faCircleDot } from '@fortawesome/free-solid-svg-icons'
 import { faCircle } from '@fortawesome/free-regular-svg-icons'
 import { useState } from 'react'
+import { RevealWrapper,RevealList } from  'next-reveal'
 
 
 
@@ -13,12 +14,14 @@ const Projects = ()=>{
 
     return (
         <>
+
         <div className={styles.Boss}>
 
+        <RevealWrapper origin='bottom' delay={200} duration={1200} distance='300px' reset={true}>
         <div id='About' className={styles.projects}>
 <span className={styles.name}>About Me</span>
         </div>
-
+</RevealWrapper>
 
 
 
@@ -29,7 +32,8 @@ const Projects = ()=>{
 
 
 
- <div className={styles.box}>  
+ {/* <div className={styles.box}>   */}
+        <RevealList interval={60} origin='left' delay={300} duration={1200} distance='500px' reset={true} className={styles.box} >
 <h1 className={styles.head}>Md Monu  </h1>
 
 
@@ -51,9 +55,14 @@ websites.</p>
     </div>
 
 </div> 
-</div>
+</RevealList>
+{/* </div> */}
+
+
     <div class={styles.laptop}>
+        <RevealWrapper rotate={{x:  150,y:130,z:80}} origin='right' delay={300} duration={1200} distance='500px' reset={true}>
     <img src='../../profile.jpg' alt='profile picture'  />
+        </RevealWrapper>
     </div>
 
     

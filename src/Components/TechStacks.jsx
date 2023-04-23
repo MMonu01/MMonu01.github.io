@@ -1,4 +1,5 @@
 import styles from '../Styles/TechStacks.module.css'
+import { RevealList,RevealWrapper } from 'next-reveal'
 
 
 const TechStacks = ()=>{
@@ -7,11 +8,15 @@ const TechStacks = ()=>{
         <div id='Skills' className={styles.container}>
 
 
-<div className={styles.alignHead}>
-  <p className={styles.about}>Tech Stacks </p>
- </div>
+<div className={styles.alignHead}> 
+    <RevealWrapper origin='bottom' delay={200} duration={1000} distance='300px' reset={true} >
 
-<div className={styles.content}>
+  <p className={styles.about}>Tech Stacks </p>
+    </RevealWrapper>
+ </div>
+{/* <div > */}
+
+<RevealWrapper  className={styles.content}  origin='bottom' delay={300}  duration={1200} distance='100px' reset={true} >
 
 <div className={styles.final}>
 <div className={styles.box}>
@@ -73,6 +78,16 @@ const TechStacks = ()=>{
 </div>
 </div>
 
+<div className={styles.final}>
+
+<div className={styles.box}>
+<img src='../../Redux.png' alt='React'/>
+<div className={`${styles.child} ${styles.child5}`}>
+<div>Redux</div>
+</div>
+</div>
+</div>
+
 
 
 
@@ -116,7 +131,8 @@ const TechStacks = ()=>{
 </div>
 </div>
 
-</div>
+</RevealWrapper>
+{/* </div> */}
         </div>
     )
 

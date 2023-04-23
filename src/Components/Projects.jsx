@@ -4,6 +4,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLifeRing,faCircleDot } from '@fortawesome/free-solid-svg-icons'
 import { faCircle } from '@fortawesome/free-regular-svg-icons'
 import { useState } from 'react'
+import { RevealList,RevealWrapper } from 'next-reveal'
+
 
 
 
@@ -49,8 +51,10 @@ carousel.scrollLeft = 2*width
         <>
          
         <div id='projectBox' className={styles.projects}>
+            <RevealWrapper origin='bottom' delay={200} duration={1000} distance='300px' reset={true}>
+
 <span className={styles.name}>Projects</span>
-        </div>
+
 
 <span  className={styles.slider}>
     {/* <FontAwesomeIcon className={styles.colored} icon={faCircleDot}/> */}
@@ -70,6 +74,8 @@ carousel.scrollLeft = 2*width
 
 </span>
 
+            </RevealWrapper>
+        </div>
 
 
 
@@ -90,19 +96,25 @@ carousel.scrollLeft = 2*width
 
 
 <div class={styles.laptop}>
+<RevealWrapper  rotate={{x:  150,y:130,z:80}}  origin='left' delay={300} duration={1200} distance='500px' reset={true}>
 <img src="../../healthkart.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
-{/* 
-    <iframe src="https://redrstore.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
+
+    </RevealWrapper>
+   
 </div>
 
 
 
  <div className={styles.box}>  
+ <RevealWrapper origin='right' delay={200} duration={1200} distance='500px' reset={true}> 
+
 <h1 className={styles.head}>VigorWizard  </h1>
+ </RevealWrapper>
 
 
 
 <div className={styles.content}>
+<RevealList origin='right' delay={200} interval={60} duration={1000} distance='500px' reset={true} >
 
     <p className={styles.intro}>VigorWizard is a platform for health,nutrition and fitness products. {`( HealthKart Clone )`}.</p>
 
@@ -121,6 +133,7 @@ HTML | CSS | JavaScript | React | Redux | Chakra ui </span></p>
     <a href='https://healthkart-ten.vercel.app/' className={styles.btn} alt='vigorwizard website'>
         <FontAwesomeIcon icon={faLifeRing}/> Live Site</a>
     </div>
+</RevealList>
 
 </div> 
 </div>
@@ -133,8 +146,9 @@ HTML | CSS | JavaScript | React | Redux | Chakra ui </span></p>
 <div className={`${styles.child} ${styles.child2}`}>
 
     <div class={styles.laptop}>
+   
         <img src="../../bloommedplus.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
-    {/* <iframe src="https://bloommedplus.vercel.app/" style={{width:"100%",border:"none",height:"100%"}} /> */}
+
 </div>
 
 

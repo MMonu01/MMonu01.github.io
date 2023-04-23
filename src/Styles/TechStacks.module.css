@@ -1,8 +1,8 @@
-.container{width:100%; height:auto; background-color: black; padding:40px 40px; padding-bottom:50px;color:white;
+.container{width:100%; height:auto; background-color: black; padding:40px 40px; padding-bottom:80px;color:white;
     /* background-blend-mode:color-dodge;
 
     background-image: url("../../public/pexels-photo-2268575.webp"); */
-    border-top: 30px solid rgb(23, 23, 23);
+
     border-bottom: 30px solid rgb(23, 23, 23);
 
 
@@ -19,8 +19,8 @@
 
 .content p{display: none;}
 
-.content { display: grid; grid-template-columns: repeat(5,1fr); }
-.content >div{display: flex; align-items: center; justify-content: center; margin-top: 45px;}
+.content { display: grid; grid-template-columns: repeat(5,1fr); gap:30px;}
+.content >div{display: flex; align-items: center; justify-content: center; margin-top: 45px; }
 
 
 .box{position:relative;}
@@ -30,15 +30,16 @@
 
 
 
-.child{position:absolute; top:0; background:rgb(255,87,34); left:0; right:0; bottom:0; height:100%; overflow:hidden; width:100%; transition:.5s; transform:scale(0); cursor:default;}
+.child{position:absolute;  background:rgba(0,0,0,.5); left:0; right:0; bottom:-30px; height:20%; overflow:hidden; width:100%; transition:.5s; transform:scale(1); cursor:default; font-size: 16px; color:rgb(208, 208, 208)}
 
-.child>div{position:absolute; top:50%; left:50%; transform: translate(-50%,-50%);font-size: 20px;}
-.box:hover .child{height:100%;width:100%;font-weight: bold;transform: scale(1.1); }
+.child>div{position:absolute; top:50%; left:50%; transform: translate(-50%,-50%);}
+
+.box:hover .child{height:100%;width:100%;font-weight: bold;transform: scale(1.1); bottom:0; font-size: 20px; background-color: black; color:white; }
 
 
 
-.child1{background-color: rgb(255,87,34);border-radius: 50%;}
-
+/* .child1{background-color: black;border-radius: 50%;} */
+/* 
 .child2{background-color: rgb(33,150,243);border-radius: 50%;}
 .child3{background-color: rgb(255,223,0);}
 .child4{background-color: rgb(0,122,205);}
@@ -46,7 +47,7 @@
 .child6{background-color: rgb(140,200,75); border-radius: 50%;}
 .child7{background-color: rgb(57,57,57); border-radius: 50%;}
 .child8{background-color: rgb(70,160,55); border-radius: 50%;}
-
+ */
 
 
 @media screen and (min-width:600px) and (max-width:810px){

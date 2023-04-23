@@ -1,4 +1,4 @@
-.projects{font-size: 50px; padding-top:50px; padding-bottom:50px; text-align: center; color:white; background-color: black;border-bottom: 2px;}
+.projects{font-size: 50px; padding-top:50px; text-align: center; color:white; background-color: black;border-bottom: 2px;}
 
 .name{border-bottom: 1px solid white;padding-bottom: 20px;}
 
@@ -31,7 +31,7 @@ background-color: black;
 
 
 
-.slider{align-items: center; white-space: nowrap;display: flex; justify-content: center; align-items: center; background-color: black;color:white;padding-bottom: 20px;}
+.slider{align-items: center; white-space: nowrap;display: flex; justify-content: center; align-items: center; background-color: black;color:white;padding-bottom: 20px; margin-top: 45px;}
 .first,.second,.third{cursor: pointer;font-size: 21px;margin:3px; transition: .5s;}
 
 .colored{color: red; font-size: 23px;margin:3px; transition:.5s;}

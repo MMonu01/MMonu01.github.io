@@ -5,6 +5,8 @@ import { faPhone,faEnvelope,faXmark } from '@fortawesome/free-solid-svg-icons'
 import React,{useRef} from 'react'
 
 import emailjs from '@emailjs/browser';
+import { RevealList,RevealWrapper } from 'next-reveal'
+
 
 
 
@@ -89,13 +91,15 @@ Email Sent Successfully!
 
 
          <div id='Contacts' className={styles.projects}>
+         <RevealWrapper origin='bottom' delay={200} duration={1000} distance='200px' reset={true} >
 <span className={styles.name}>Contact Me</span>
+</RevealWrapper>
         </div>
         <div  className={styles.container}>
       
     
       <div className={styles.logo}>
-
+      <RevealList interval={60} origin='left' delay={300} duration={1200} distance='500px' reset={true} >
      <h2 className={styles.contact}>Contact</h2>
      {/* <div> */}
 
@@ -122,20 +126,27 @@ Email Sent Successfully!
     <FontAwesomeIcon icon={faEnvelope}/>
     <span>mdmonu2021@gmail.com</span>
 </div> 
+</RevealList>
      {/* </div> */}
       </div>
+      
 
 <form className={styles.form}  onSubmit={sendEmail}>
+<RevealList interval={60} origin='bottom' delay={300} duration={1200} distance='500px' reset={true} >
     <h2>Message me</h2>
+</RevealList>
   
     
-      <div className={styles.formField}>
+      {/* <div className={styles.formField}> */}
+      <RevealList interval={60} className={styles.formField} origin='left' delay={300} duration={1200} distance='500px' reset={true} >
+        
       <input type="text" name="name" onChange={HandleFormData} placeholder='Name' required/>
       <input type="email" name="email" onChange={HandleFormData} placeholder='Email' required />
       <input type="text" name="subject" onChange={HandleFormData} placeholder='Subject' required/>
       <textarea name="message" onChange={HandleFormData}  placeholder='Message...' required />
       <input type="submit" value="Send message" />
-      </div>
+      </RevealList>
+      {/* </div> */}
       
     </form>
         </div>
