@@ -17,7 +17,7 @@ const Projects = ()=>{
 
         <div className={styles.Boss}>
 
-        <RevealWrapper origin='bottom' delay={200} duration={1200} distance='300px' reset={true}>
+        <RevealWrapper origin='bottom' delay={100} duration={1200} distance='300px' >
         <div id='About' className={styles.projects}>
 <span className={styles.name}>About Me</span>
         </div>
@@ -33,7 +33,7 @@ const Projects = ()=>{
 
 
  {/* <div className={styles.box}>   */}
-        <RevealList interval={60} origin='left' delay={300} duration={1200} distance='500px' reset={true} className={styles.box} >
+        <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px' reset={true} className={styles.box} >
 <h1 className={styles.head}>Md Monu  </h1>
 
 
@@ -60,7 +60,7 @@ websites.</p>
 
 
     <div class={styles.laptop}>
-        <RevealWrapper rotate={{x:  150,y:130,z:80}} origin='right' delay={300} duration={1200} distance='500px' reset={true}>
+        <RevealWrapper rotate={{x:  150,y:130,z:80}} origin='right' delay={100} duration={1200} distance='500px' reset={true}>
     <img src='../../profile.jpg' alt='profile picture'  />
         </RevealWrapper>
     </div>

@@ -18,11 +18,11 @@ return (
 <div className={styles.profile}>
 <div className={styles.item}>
 
-<RevealList interval={60} className={styles.formField} origin='top' delay={300} duration={1200} distance='500px' reset={true}>
+<RevealList interval={60} className={styles.formField} origin='top' delay={100} duration={1200} distance='500px' >
 <p className={styles.item1} >Welcome</p>
 </RevealList>
 
-<RevealList interval={400} className={styles.formField} origin='left' delay={300} duration={1200} distance='350px' reset={true}>
+<RevealList interval={300} className={styles.formField} origin='left' delay={100} duration={1200} distance='350px'>
 <p className={styles.item2}>I'm <span>Md Monu</span></p>
 
 
@@ -35,7 +35,7 @@ return (
 
 
 
-<RevealList interval={60} className={styles.formField} origin='bottom' delay={300} duration={1200} distance='500px' reset={true}>
+<RevealList interval={60} className={styles.formField} origin='bottom' delay={100} duration={1200} distance='500px' >
 
 <a onClick={OpenResume} href='https://drive.google.com/uc?id=11wLwI3P-ywaIvOsCGf0TOaRKZeStk-gU&export=download' download="Md-Monu-Resume" className={styles.resume}>
 <FontAwesomeIcon icon={faDownload}/>

@@ -91,7 +91,7 @@ Email Sent Successfully!
 
 
          <div id='Contacts' className={styles.projects}>
-         <RevealWrapper origin='bottom' delay={200} duration={1000} distance='200px' reset={true} >
+         <RevealWrapper origin='bottom' delay={100} duration={1000} distance='200px'  >
 <span className={styles.name}>Contact Me</span>
 </RevealWrapper>
         </div>
@@ -99,7 +99,7 @@ Email Sent Successfully!
       
     
       <div className={styles.logo}>
-      <RevealList interval={60} origin='left' delay={300} duration={1200} distance='500px' reset={true} >
+      <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px'  >
      <h2 className={styles.contact}>Contact</h2>
      {/* <div> */}
 
@@ -132,13 +132,13 @@ Email Sent Successfully!
       
 
 <form className={styles.form}  onSubmit={sendEmail}>
-<RevealList interval={60} origin='bottom' delay={300} duration={1200} distance='500px' reset={true} >
+<RevealList interval={60} origin='bottom' delay={100} duration={1200} distance='500px' >
     <h2>Message me</h2>
 </RevealList>
   
     
       {/* <div className={styles.formField}> */}
-      <RevealList interval={60} className={styles.formField} origin='left' delay={300} duration={1200} distance='500px' reset={true} >
+      <RevealList interval={60} className={styles.formField} origin='left' delay={100} duration={1200} distance='500px' reset={true} >
         
       <input type="text" name="name" onChange={HandleFormData} placeholder='Name' required/>
       <input type="email" name="email" onChange={HandleFormData} placeholder='Email' required />

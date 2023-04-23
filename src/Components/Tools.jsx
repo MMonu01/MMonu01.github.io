@@ -9,14 +9,14 @@ const Tools = ()=>{
 
 
 <div className={styles.alignHead}>
-    <RevealWrapper origin='bottom' delay={200} duration={1000} distance='300px' reset={true} >
+    <RevealWrapper origin='bottom' delay={100} duration={1000} distance='300px'  >
 
   <p className={styles.about}>Tools </p>
     </RevealWrapper>
  </div>
 
 
-<RevealList interval={60} origin='bottom' delay={300} duration={1200} distance='100px' reset={true} >
+<RevealList interval={60} origin='bottom' delay={100} duration={1200} distance='100px' reset={true} >
 
 <div className={styles.content}>
 

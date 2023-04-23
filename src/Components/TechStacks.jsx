@@ -9,14 +9,14 @@ const TechStacks = ()=>{
 
 
 <div className={styles.alignHead}> 
-    <RevealWrapper origin='bottom' delay={200} duration={1000} distance='300px' reset={true} >
+    <RevealWrapper origin='bottom' delay={100} duration={1000} distance='300px' >
 
   <p className={styles.about}>Tech Stacks </p>
     </RevealWrapper>
  </div>
 {/* <div > */}
 
-<RevealWrapper  className={styles.content}  origin='bottom' delay={300}  duration={1200} distance='100px' reset={true} >
+<RevealWrapper  className={styles.content}  origin='bottom' delay={100}  duration={1200} distance='100px' reset={true} >
 
 <div className={styles.final}>
 <div className={styles.box}>

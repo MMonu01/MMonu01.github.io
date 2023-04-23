@@ -51,7 +51,7 @@ carousel.scrollLeft = 2*width
         <>
          
         <div id='projectBox' className={styles.projects}>
-            <RevealWrapper origin='bottom' delay={200} duration={1000} distance='300px' reset={true}>
+            <RevealWrapper origin='bottom' delay={100} duration={1000} distance='300px' >
 
 <span className={styles.name}>Projects</span>
 
@@ -96,7 +96,7 @@ carousel.scrollLeft = 2*width
 
 
 <div class={styles.laptop}>
-<RevealWrapper  rotate={{x:  150,y:130,z:80}}  origin='left' delay={300} duration={1200} distance='500px' reset={true}>
+<RevealWrapper  rotate={{x:  150,y:130,z:80}}  origin='left' delay={100} duration={1200} distance='500px' reset={true}>
 <img src="../../healthkart.png" style={{width:"100%",border:"none",height:"100%"}} alt="bloommedplus"/>
 
     </RevealWrapper>
@@ -106,7 +106,7 @@ carousel.scrollLeft = 2*width
 
 
  <div className={styles.box}>  
- <RevealWrapper origin='right' delay={200} duration={1200} distance='500px' reset={true}> 
+ <RevealWrapper origin='right' delay={100} duration={1200} distance='500px' reset={true}> 
 
 <h1 className={styles.head}>VigorWizard  </h1>
  </RevealWrapper>
@@ -114,7 +114,7 @@ carousel.scrollLeft = 2*width
 
 
 <div className={styles.content}>
-<RevealList origin='right' delay={200} interval={60} duration={1000} distance='500px' reset={true} >
+<RevealList origin='right' delay={100} interval={60} duration={1000} distance='500px' reset={true} >
 
     <p className={styles.intro}>VigorWizard is a platform for health,nutrition and fitness products. {`( HealthKart Clone )`}.</p>
 
