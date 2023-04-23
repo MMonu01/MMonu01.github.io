@@ -99,7 +99,9 @@ Email Sent Successfully!
       
     
       <div className={styles.logo}>
+      <RevealWrapper origin='bottom' delay={100} duration={1000} distance='200px'  >
      <h2 className={styles.contact}>Contact</h2>
+     </RevealWrapper>
       <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px' reset={true}  >
      {/* <div> */}
 
