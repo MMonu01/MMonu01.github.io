@@ -50,12 +50,12 @@ const Navbar =()=>{
     return (
         <>
         <Sidebar Open = {Open} show={show} Close={Close} />
-        <nav id='navbar' className={styles.nav}>
+        <nav id='navbar' className={styles.nav} style={{maxWidth:'1400px',margin:"auto"}}>
             <a href='#home' id='logo' className={styles.logo}>M<span style={{color:"teal"}} id='quanLogo'>M</span></a>
 
 
 
-            <div className={styles.navigation}>
+            <div  className={styles.navigation}>
                 <a href='#home'>Home</a>
                 <a href='#About'>About</a>
                 <a href='#Skills'>Skills</a>

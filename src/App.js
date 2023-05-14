@@ -18,14 +18,14 @@ function App() {
 
 
   return (
-    <>
+    <div style={{maxWidth:'1400px',margin:"auto"}}>
     <button onClick={topFunction} id="myBtn" style={{display:"none"}}  title="Go to top">
     <FontAwesomeIcon style={{fontWeight:"bolder",fontSize:"22px"}} icon={faChevronUp}/>
     </button>
     <div className="App" style={{position:"relative"}}>
   <Home/>
     </div>
-    </>
+    </div>
   );
 }
 

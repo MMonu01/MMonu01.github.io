@@ -91,18 +91,18 @@ Email Sent Successfully!
 
 
          <div id='Contacts' className={styles.projects}>
-         <RevealWrapper origin='bottom' delay={100} duration={1000} distance='200px'  >
+         <div  >
 <span className={styles.name}>Contact Me</span>
-</RevealWrapper>
+</div>
         </div>
         <div  className={styles.container}>
       
     
       <div className={styles.logo}>
-      <RevealWrapper origin='bottom' delay={100} duration={1000} distance='200px'  >
+      <div   >
      <h2 className={styles.contact}>Contact</h2>
-     </RevealWrapper>
-      <RevealList interval={60} origin='left' delay={100} duration={1200} distance='500px' reset={true}  >
+     </div>
+      <div  >
      {/* <div> */}
 
 
@@ -128,26 +128,26 @@ Email Sent Successfully!
     <FontAwesomeIcon icon={faEnvelope}/>
     <span>mdmonu2021@gmail.com</span>
 </div> 
-</RevealList>
+</div>
      {/* </div> */}
       </div>
       
 
 <form className={styles.form}  onSubmit={sendEmail}>
-<RevealList interval={60} origin='bottom' delay={100} duration={1200} distance='500px' >
+<div  >
     <h2>Message me</h2>
-</RevealList>
+</div>
   
     
       {/* <div className={styles.formField}> */}
-      <RevealList interval={60} className={styles.formField} origin='left' delay={100} duration={1200} distance='500px' reset={true} >
+      <div className={styles.formField} >
         
       <input type="text" name="name" onChange={HandleFormData} placeholder='Name' required/>
       <input type="email" name="email" onChange={HandleFormData} placeholder='Email' required />
       <input type="text" name="subject" onChange={HandleFormData} placeholder='Subject' required/>
       <textarea name="message" onChange={HandleFormData}  placeholder='Message...' required />
       <input type="submit" value="Send message" />
-      </RevealList>
+      </div>
       {/* </div> */}
       
     </form>
