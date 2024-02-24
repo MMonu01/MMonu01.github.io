@@ -97,7 +97,7 @@ const Projects = () => {
                 </p>
 
                 <p className={styles.feature}>
-                  <span>Tech Stacks:</span> <span>HTML | CSS | Tailwind | JavaScript | React | Vite | Redux | Express.js | MongoDB | Node.js</span>
+                  <span>Tech Stacks:</span> <span>HTML | CSS | Tailwind | JavaScript | React | Vite | Redux-toolkit | Express.js | MongoDB | Node.js</span>
                 </p>
 
                 <div class={styles.alignbtn}>
