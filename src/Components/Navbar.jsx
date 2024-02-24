@@ -8,10 +8,8 @@ import { useEffect } from 'react'
 console.log(window.height)
 
 const Navbar =()=>{
-
    window.onscroll = ()=>{
-
-       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+           if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         let nav =       document.getElementById("navbar")
   let mybutton = document.getElementById("myBtn");
   mybutton.style.display = "block";
