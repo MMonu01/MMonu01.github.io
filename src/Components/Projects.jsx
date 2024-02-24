@@ -101,7 +101,7 @@ const Projects = () => {
                 </p>
 
                 <div class={styles.alignbtn}>
-                  <a href="https://github.com/MMonu01/parallaxai-iq/tree/main" className={styles.btn} alt="Parallax AI github">
+                  <a href="https://github.com/MMonu01/parallaxai-iq" className={styles.btn} alt="Parallax AI github">
                     <FontAwesomeIcon icon={faGithub} /> Github
                   </a>
 
